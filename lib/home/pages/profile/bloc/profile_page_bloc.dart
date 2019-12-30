@@ -13,8 +13,7 @@ class ProfilePageBloc extends Bloc<ProfilePageEvent, ProfilePageState> {
   final User user; // User object which will receive possible edits
 
   ProfilePageBloc({this.userRepository, this.user})
-      : assert(userRepository != null),
-        assert(user != null);
+      : assert(userRepository != null);
 
   @override
   ProfilePageState get initialState => ProfilePageLoading();
