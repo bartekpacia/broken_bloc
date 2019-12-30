@@ -5,7 +5,7 @@ import 'package:bloc_strange_behavior/failure.dart';
 import 'package:bloc_strange_behavior/remote/repositories/user_repository.dart';
 import 'package:logging/logging.dart';
 
-import './bloc.dart';
+import 'bloc.dart';
 
 class StatsPageBloc extends Bloc<StatsPageEvent, StatsPageState> {
   final UserRepository userRepository;

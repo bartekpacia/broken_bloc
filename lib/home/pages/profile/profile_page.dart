@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc_strange_behavior/screens/home/bloc/bloc.dart';
-import 'package:bloc_strange_behavior/screens/home/pages/profile/bloc/bloc.dart';
+import 'package:bloc_strange_behavior/home/bloc/bloc.dart';
+import 'package:bloc_strange_behavior/home/pages/profile/bloc/bloc.dart';
 import 'package:bloc_strange_behavior/widgets/loading_indicator.dart';
 import 'package:toast/toast.dart';
 

@@ -1,12 +1,12 @@
+import 'package:bloc_strange_behavior/home/bloc/bloc.dart';
+import 'package:bloc_strange_behavior/home/pages/profile/bloc/bloc.dart';
+import 'package:bloc_strange_behavior/home/pages/profile/profile_page.dart';
+import 'package:bloc_strange_behavior/home/pages/stats/stats_page.dart';
+import 'package:bloc_strange_behavior/remote/repositories/user_repository.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:logging/logging.dart';
-import 'package:bloc_strange_behavior/remote/repositories/user_repository.dart';
-import 'package:bloc_strange_behavior/screens/home/bloc/bloc.dart';
-import 'package:bloc_strange_behavior/screens/home/pages/profile/bloc/bloc.dart';
-import 'package:bloc_strange_behavior/screens/home/pages/profile/profile_page.dart';
-import 'package:bloc_strange_behavior/screens/home/pages/stats/stats_page.dart';
 
 class HomeScreen extends StatelessWidget {
   void _onTapNavbar(int index, BuildContext context) {

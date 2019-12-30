@@ -6,7 +6,7 @@ import 'package:bloc_strange_behavior/failure.dart';
 import 'package:bloc_strange_behavior/remote/models/user.dart';
 import 'package:bloc_strange_behavior/remote/repositories/user_repository.dart';
 
-import './bloc.dart';
+import 'bloc.dart';
 
 class ProfilePageBloc extends Bloc<ProfilePageEvent, ProfilePageState> {
   final UserRepository userRepository;

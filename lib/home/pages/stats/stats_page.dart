@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc_strange_behavior/remote/repositories/user_repository.dart';
-import 'package:bloc_strange_behavior/screens/home/pages/stats/bloc/bloc.dart';
+import 'package:bloc_strange_behavior/home/pages/stats/bloc/bloc.dart';
 import 'package:bloc_strange_behavior/widgets/loading_indicator.dart';
 
 /// First page from the left on the HomeScreen. Displays welcome message to the user

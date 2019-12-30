@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:bloc_strange_behavior/bloc_delegate.dart';
-import 'package:bloc_strange_behavior/screens/home/home_screen.dart';
+import 'package:bloc_strange_behavior/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 
